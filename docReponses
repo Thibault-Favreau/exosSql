@@ -1,5 +1,15 @@
+
 Question 1 : 
+
 
 Select last_name, employees.department_id, department_name from employees join departments on employees.department_id = departments.department_id;
 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Question 2 :
+
+
+Select distinct job_title, department_id from employees join jobs on employees.job_id = jobs.job_id where department_id = 30;
 
