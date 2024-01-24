@@ -13,3 +13,17 @@ Question 2 :
 
 Select distinct job_title, department_id from employees join jobs on employees.job_id = jobs.job_id where department_id = 30;
 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Question 3 :
+
+
+Select last_name, department_name, concat(street_address,' - ',city) 
+from employees 
+join departments on employees.department_id = departments.department_id 
+join locations on departments.location_id = locations.location_id 
+where commission_pct is not null;
+
