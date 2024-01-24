@@ -1,0 +1,5 @@
+Question 1 : 
+
+Select last_name, employees.department_id, department_name from employees join departments on employees.department_id = departments.department_id;
+
+
